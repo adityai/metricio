@@ -21,6 +21,7 @@ ReactDOM.render(
     <NumberWidget name="DemoConversion" title="Conversion" metric="%" format="0.0a" />
     <BuildStatusWidget name="DemoDevelop" title="Build - Develop" size="medium" />
     <TextWidget title="Greeting" name="Greeting" />
+    <TextWidget title="Weather" name="Weather" />
   </Dashboard>,
   document.getElementById('content'),
 );
